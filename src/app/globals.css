@@ -12,7 +12,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+ /* about */
+
+
+ .about-p {
+  @apply text-lg text-gray-600 mb-4 w-80 text-justify
+ }
+
+ .about-card {
+  @apply flex flex-col items-center  bg-white size-100 shadow-lg rounded-2xl gap-5 pt-10
+ }
+
+ .about-title {
+  @apply text-4xl font-semibold text-gray-700
+ }
