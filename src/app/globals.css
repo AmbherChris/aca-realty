@@ -40,3 +40,12 @@ body {
  .about-title {
   @apply text-4xl font-semibold text-gray-700
  }
+
+ .clip-hero-shape {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 44% 100%, 44% 80%, 0% 80%);
+ 
+
+
+  
+}
+
