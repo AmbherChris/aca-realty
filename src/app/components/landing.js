@@ -24,24 +24,24 @@ export default function Landing() {
 
 
         <img
-          className="bg-blue-500 rounded-2xl h-[30rem] w-300 object-cover shadow-xl clip-hero-shape"
+          className="bg-blue-500 h-[30rem] w-300 object-cover clip-hero-shape "
           
           src="house.jpeg" alt="house"
         />
 
-        <div className="flex absolute top-154 left-0 bg-white bg-opacity-50  gap-6 rounded-lg w-fit">
-          <div className='flex flex-col bg-amber-600 p-4 text-left w-60 h-fit rounded-lg '>
+        <div className="flex absolute top-150 left-0  bg-opacity-50  gap-6 rounded-lg w-fit text-black">
+          <div className='flex flex-col bg-white p-4 text-left w-60 h-fit drop-shadow-md'>
             <p>Selling or letting?</p>
             <h3 className='font-bold text-[23px]'>Instant valuation</h3>
           </div>
-          <div className='flex flex-col bg-amber-600  p-4 text-left w-60 h-fit rounded-lg '>
+          <div className='flex flex-col bg-white  p-4 text-left w-60 h-fit drop-shadow-md'>
             <p>Buying or renting?</p>
             <h3 className='font-bold text-[23px]'>Find property</h3>
           </div>
         </div>
       </div>
 
-      <div id="about" className="bg-gray-50 py-16 px-6 sm:px-12 w-full mt-200">
+      <div id="about" className="bg-gray-50 py-16 px-6 sm:px-12 w-full mt-230">
         <div className="flex flex-col items-center text-center mb-10">
           <h2 className="text-4xl font-bold text-gray-800 mb-5 ">About Us</h2>
           <p className="text-lg text-gray-600 mb-4 max-w-prose">

@@ -34,7 +34,7 @@ body {
  }
 
  .about-card {
-  @apply flex flex-col items-center  bg-white size-100 shadow-lg rounded-2xl gap-5 pt-10
+  @apply flex flex-col items-center  bg-white size-100 drop-shadow-md gap-5 pt-10
  }
 
  .about-title {
@@ -42,10 +42,9 @@ body {
  }
 
  .clip-hero-shape {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 44% 100%, 44% 80%, 0% 80%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 44% 100%, 44% 77%, 0%  77%);
+  @apply drop-shadow-xl/50
+
  
-
-
-  
 }
 

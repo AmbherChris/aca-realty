@@ -11,7 +11,7 @@ const openSans = Open_Sans({
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen  pb-20 gap-16 p-5 sm:p-10 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen  gap-16 p-5 sm:p-10 font-[family-name:var(--font-geist-sans)] bg-[#e7e7e7]">
 
       <NavBar />
       <Landing />
